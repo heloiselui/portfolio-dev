@@ -1,0 +1,73 @@
+#portfolio {
+  background-color: var(--gray-200);
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  padding: 56px 200px;
+}
+
+.project-card {
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  border: 2px solid var(--gray-400);
+}
+
+.project-card img {
+  width: 330px;
+  height: 156px;
+  object-fit: cover;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.border-red {
+  border-top: 12px solid var(--red);
+  border-left: 12px solid var(--red);
+  border-right: 12px solid var(--red);
+  border-bottom: none;
+}
+
+.border-blue {
+  border-top: 12px solid var(--blue);
+  border-left: 12px solid var(--blue);
+  border-right: 12px solid var(--blue);
+  border-bottom: none;
+}
+
+.border-yellow {
+  border-top: 12px solid var(--yellow);
+  border-left: 12px solid var(--yellow);
+  border-right: 12px solid var(--yellow);
+  border-bottom: none;
+}
+
+.border-green {
+  border-top: 12px solid var(--green);
+  border-left: 12px solid var(--green);
+  border-right: 12px solid var(--green);
+  border-bottom: none;
+}
+
+.project-card h3 {
+  color: var(--gray-600);
+  font: var(--text-title-md);
+  margin: 10px 20px;
+  text-align: left;
+}
+
+.project-card p {
+  color: var(--gray-500);
+  font: var(--text-base-md);
+  margin: 0 20px 20px 20px;
+  text-align: left;
+}

@@ -33,3 +33,14 @@
   --text-base-sm: 400 0.875rem/1.4 var(--ff-base);
   --text-base-md: 400 1rem/1.4 var(--ff-base);
 }
+
+span {
+  color: var(--red);
+  font: var(--text-subtitle);
+}
+
+h2 {
+  font: var(--text-title-md);
+  color: var(--gray-600);
+  margin-top: 8px;
+}
