@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --gray-100: #0D0E11;
   --gray-200: #16181D;
@@ -16,12 +22,6 @@
   --ff-base: "Maven Pro", serif;
   --ff-titles: "Asap", serif;
   --ff-subtitle: "Inconsolata", serif;
-
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-subtitle: 1.25rem;
-  --text-md: 1.5rem;
-  --text-lg: 3.5rem;
 
   --text-title-sm: 700 1rem/1.2 var(--ff-titles);
   --text-title-md: 700 1.5rem/1.2 var(--ff-titles);
