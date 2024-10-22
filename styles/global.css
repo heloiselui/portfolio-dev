@@ -34,6 +34,7 @@
   --text-base-md: 400 1rem/1.4 var(--ff-base);
 }
 
+
 span {
   color: var(--red);
   font: var(--text-subtitle);
