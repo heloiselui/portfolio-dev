@@ -62,6 +62,19 @@ header {
   padding: 9px 16px;
 }
 
+.technologies ul li:hover {
+  background-color: var(--gray-400);
+  transform: translateY(-10px);
+  transition: all 0.8s ease-in-out;
+}
+
 .technologies img[alt="Caret Double Down Icon"] {
   width: 32px;
+}
+
+@media (max-width: 1024px) {
+  .technologies ul {
+    flex-wrap: wrap;
+  }
+
 }

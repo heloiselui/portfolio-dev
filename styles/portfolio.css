@@ -31,6 +31,12 @@
   margin-top: 12px;
 }
 
+.project-card img:hover {
+  background-color: var(--gray-400);
+  transform: translateY(-10px);
+  transition: all 0.8s ease-in-out;
+}
+
 .border-red {
   border-top: 12px solid var(--red);
   border-left: 12px solid var(--red);
@@ -71,4 +77,21 @@
   font: var(--text-base-md);
   margin: 0 20px 20px 20px;
   text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .project-card {
+    width: 70%;
+
+    & .project-card img {
+      width: 80%;
+      height: auto;
+    }
+
+    & .project-card h3,
+    .project-card p {
+      text-align: center;
+    }
+  }
+
 }
